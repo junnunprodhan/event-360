@@ -3,7 +3,7 @@ import Container from "../../layout/Container";
 import { motion } from "framer-motion";
 const Banner = () => {
   return (
-    <div className="flex overflow-hidden flex-col- justify-center items-center w-full h-full md:h-[90vh] dark:bg-black">
+    <div className="flex overflow-hidden flex-col- justify-center items-center w-full h-full md:h-[90vh]  dark:bg-black">
       <Container className="flex flex-col-reverse md:flex-row items-center pt-10 gap-10 md:gap-5">
         <motion.div
           initial={{ x: -300, opacity: 0 }}

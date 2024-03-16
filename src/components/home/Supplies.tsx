@@ -29,7 +29,7 @@ const Supplies = () => {
   };
 
   return (
-    <div className="dark:bg-black">
+    <div className=" dark:bg-black">
       <Container className="pt-8 ">
         <h1 className="text-center text-6xl font-bold pb-14 text-blue-800">
           Supplies

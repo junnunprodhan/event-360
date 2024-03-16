@@ -48,7 +48,7 @@ const Testimonials = () => {
   if (isPending) {
     return (
       <p className="flex items-center justify-center text-xl font-semibold h-screen dark:text-white">
-        Loading...
+        Loading....
       </p>
     );
   }
@@ -56,13 +56,13 @@ const Testimonials = () => {
   if (!clientsReview?.data?.data?.length) {
     return (
       <p className="flex items-center justify-center text-xl font-semibold h-screen dark:text-white">
-        Loading...
+        Loading....
       </p>
     );
   }
 
   return (
-    <div className="dark:bg-black">
+    <div className="bg-white dark:bg-black">
       <Container className="py-10">
         <h1 className="text-4xl md:text-6xl font-semibold text-center py-8 md:py-12 text-blue-600">
           Donor Testimonials

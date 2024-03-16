@@ -2,7 +2,7 @@ import { FaHeadphones } from "react-icons/fa6";
 import Container from "../../layout/Container";
 const Footer = () => {
   return (
-    <div className="bg-[#FFE577] dark:bg-black dark:text-white pt-16 pb-10">
+    <div className="bg-[#F8F7F2] dark:bg-black dark:text-white pt-16 pb-10">
       <Container>
         <div className="container mx-auto grid  grid-cols-2 md:grid-cols-4 gap-8">
           <div>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <FaHeadphones className="h-14 w-14 text-red-600" />
                 <div>
                   <p>Through Whatsapp</p>
-                  <h1 className="text-2xl font-extrabold">+880123456789</h1>
+                  <h1 className="text-xl font-extrabold">+8809654564</h1>
                 </div>
               </div>
               <p>No: 58 A, East Madison Street, Baltimore, MD,</p>

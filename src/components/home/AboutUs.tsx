@@ -22,8 +22,8 @@ const AboutUs = () => {
             Food distribution and supply is a family run company founded in 2004
           </p>
           <div>
-            <div className="flex items-center justify-between pt-5">
-              <img src={organic1} alt="" />
+            <div className="lg:flex items-center sm:justify-between pt-5">
+              <img  src={organic1} alt="" />
               <p className="text-green-900 text-xl font-semibold">
                 Why Healthy?
               </p>
