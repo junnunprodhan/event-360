@@ -7,7 +7,7 @@ import logo from "../../assets/logo/logo1.png";
 import { MdMenu } from "react-icons/md";
 import { useState } from "react";
 import MobileNav from "./MobileNav";
-import ThemeChanger from "../theme/ThemeChanger";
+// import ThemeChanger from "../theme/ThemeChanger";
 export const navData = [
   {
     id: 1,
@@ -107,7 +107,7 @@ const Navbar = () => {
                 </button>
               </Link>
             )}
-            <ThemeChanger />
+            {/* <ThemeChanger /> */}
           </div>
         </div>
         <div className="md:hidden block">
