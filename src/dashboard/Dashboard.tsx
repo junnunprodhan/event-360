@@ -30,7 +30,6 @@ const Dashboard = () => {
   const babyCare = categoryData?.data?.data.find(
     (supply: TSupplies) => supply?.category === "Baby Care"
   )?.totalDonate;
-  console.log('baby',babyCare)
   const healthy = categoryData?.data?.data.find(
     (supply: TSupplies) => supply?.category === "Healthy"
   )?.totalDonate;
