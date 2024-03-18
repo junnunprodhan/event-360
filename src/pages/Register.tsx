@@ -31,7 +31,7 @@ const Register = () => {
     const response = await mutateAsync(data);
     if (response?.data?.success) {
       navigate("/login");
-      toast.success("Registration successfully please log in", {
+      toast.success("Registration successfully please log in.", {
         position: "top-center",
       });
     }
@@ -43,7 +43,7 @@ const Register = () => {
         <div className="pb-5">
           <h1 className="text-lg dark:text-white">Register</h1>
           <p className="text-gray-400 pt-3">
-            Please Register with your user name, email and password
+            Please Register with your user name, emailand password 
           </p>
         </div>
         <MainForm onSubmit={onSubmit}>
