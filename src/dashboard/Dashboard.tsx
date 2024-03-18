@@ -7,6 +7,7 @@ import { baseApiAxios } from "../api/baseApiAxios";
 
 const Dashboard = () => {
   const { data, isPending } = useGetSupplies();
+  console.log(data)
   const { data: categoryData, isLoading } = useQuery({
     queryKey: ["Category"],
     queryFn: () => baseApiAxios("/donation-category"),
@@ -21,7 +22,7 @@ const Dashboard = () => {
   if (!data?.data?.data?.length) {
     return (
       <p className="flex items-center justify-center text-xl font-semibold h-screen dark:text-white">
-        Loading...
+        Loading....
       </p>
     );
   }
@@ -29,6 +30,7 @@ const Dashboard = () => {
   const babyCare = categoryData?.data?.data.find(
     (supply: TSupplies) => supply?.category === "Baby Care"
   )?.totalDonate;
+  console.log('baby',babyCare)
   const healthy = categoryData?.data?.data.find(
     (supply: TSupplies) => supply?.category === "Healthy"
   )?.totalDonate;

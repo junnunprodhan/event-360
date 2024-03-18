@@ -19,16 +19,16 @@ export const navData = [
   //   path: "/virtual-volunteer-signup",
   //   element: "Virtual volunteer",
   // },
-  {
-    id: 3,
-    path: "/about-us",
-    element: "About us",
-  },
-  {
-    id: 33,
-    path: "/community",
-    element: "Community",
-  },
+  // {
+  //   id: 3,
+  //   path: "/about-us",
+  //   element: "About us",
+  // },
+  // {
+  //   id: 33,
+  //   path: "/community",
+  //   element: "Community",
+  // },
   {
     id: 2,
     path: "/all-supplies",

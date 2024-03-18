@@ -1,4 +1,4 @@
-import { FaHeadphones } from "react-icons/fa6";
+
 import Container from "../../layout/Container";
 const Footer = () => {
   return (
@@ -40,7 +40,6 @@ const Footer = () => {
             <h1 className="text-xl font-semibold">CONTACT US</h1>
             <div className=" pt-8 space-y-3">
               <div className="flex items-center gap-2">
-                <FaHeadphones className="h-14 w-14 text-red-600" />
                 <div>
                   <p>Through Whatsapp</p>
                   <h1 className="text-xl font-extrabold">+8809654564</h1>
