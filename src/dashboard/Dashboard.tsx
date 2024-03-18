@@ -14,7 +14,7 @@ const Dashboard = () => {
   if (isPending || isLoading) {
     return (
       <p className="flex items-center justify-center text-xl font-semibold h-screen dark:text-white">
-        Loading...
+        Loading....
       </p>
     );
   }

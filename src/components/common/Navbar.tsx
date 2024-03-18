@@ -14,11 +14,11 @@ export const navData = [
     path: "/",
     element: "Home",
   },
-  {
-    id: 3,
-    path: "/virtual-volunteer-signup",
-    element: "Virtual volunteer",
-  },
+  // {
+  //   id: 3,
+  //   path: "/virtual-volunteer-signup",
+  //   element: "Virtual volunteer",
+  // },
   {
     id: 3,
     path: "/about-us",

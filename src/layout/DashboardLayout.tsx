@@ -17,13 +17,13 @@ const DashboardLayout = () => {
       >
         <MdMenu className="h-10 w-10" />
       </button>
-      <div className="w-0 md:w-1/5 bg-blue-gray-800">
+      <div className="w-0 md:w-1/5 bg-gray-800">
         <div className="">
           <DashboardSidebar />
         </div>
       </div>
       <div className="w-full md:w-4/5 ">
-        <div className="dark:bg-black h-full">
+        <div className=" dark:bg-black h-full">
           <Outlet />
         </div>
       </div>

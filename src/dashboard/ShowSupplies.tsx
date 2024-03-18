@@ -28,6 +28,7 @@ const ShowSupplies = ({
     setModalOpen(!openModal);
   };
 
+
   const handleDeleteSupply = async (id: string) => {
     Swal.fire({
       title: "Are you sure?",
@@ -50,6 +51,29 @@ const ShowSupplies = ({
       }
     });
   };
+
+  // const handleDeleteSupply = async (id: string) => {
+  //   Swal.fire({
+  //     title: "Are you sure?",
+  //     text: "You won't be able to revert this!",
+  //     icon: "warning",
+  //     showCancelButton: true,
+  //     confirmButtonColor: "#3085d6",
+  //     cancelButtonColor: "#d33",
+  //     confirmButtonText: "Yes, delete it!",
+  //   }).then(async (result) => {
+  //     if (result.isConfirmed) {
+  //       const response = await mutateAsync(id);
+  //       if (response?.data?.success) {
+  //         Swal.fire({
+  //           title: "Deleted!",
+  //           text: "Your file has been deleted.",
+  //           icon: "success",
+  //         });
+  //       }
+  //     }
+  //   });
+  // };
   return (
     <tr key={supply?._id} className="even:bg-blue-gray-50/50 dark:bg-black dark:text-white">
       <td className="pl-2">{index + 1}</td>

@@ -41,7 +41,7 @@ const DashboardSidebar = () => {
         >
           Create Supply
         </NavLink>
-        <NavLink
+        {/* <NavLink
           to={"leader-board"}
           className="font-normal   px-5 py-2  hover:bg-white text-white hover:text-black"
           style={({ isActive }) => {
@@ -52,8 +52,8 @@ const DashboardSidebar = () => {
           }}
         >
           Leader board
-        </NavLink>
-        <NavLink
+        </NavLink> */}
+        {/* <NavLink
           to={"create-testimonial"}
           className="font-normal   px-5 py-2  hover:bg-white text-white hover:text-black"
           style={({ isActive }) => {
@@ -64,7 +64,7 @@ const DashboardSidebar = () => {
           }}
         >
           Interactive Testimonial
-        </NavLink>
+        </NavLink> */}
         <Link
           to={"/"}
           className="font-normal  hover:bg-white text-white hover:text-black px-5 py-2 "
